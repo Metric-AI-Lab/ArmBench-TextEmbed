@@ -1,0 +1,24 @@
+evaluation:
+  instructions: "configs/task_instructions.yml"
+  tasks:
+  - name: retrieval
+    prompts:      
+      query_prefix: "query: "
+      passage_prefix: "passage: "
+  - name: sts
+  - name: ms_marco
+    prompts:
+      query_prefix: "query: "
+      passage_prefix: "passage: "
+  - name: mteb
+    
+models:
+  - name: e5-base
+    model_name: "intfloat/multilingual-e5-base"
+    pooling: "mean"
+    max_length: 512
+general:
+  batch_size: 64
+  output_dir: "evaluation_results"
+  translit: True
+  save_embeddings: False

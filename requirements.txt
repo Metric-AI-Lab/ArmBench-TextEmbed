@@ -1,0 +1,12 @@
+torch==2.10.0
+transformers==4.55.3
+sentence-transformers==5.2.3
+datasets==4.0.0
+huggingface-hub==0.34.4
+numpy==2.2.6
+polars==1.18.0
+scipy==1.14.1
+scikit-learn==1.6.1
+safetensors==0.6.2
+pyyaml==6.0.2
+mteb==2.8.8

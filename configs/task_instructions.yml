@@ -1,0 +1,11 @@
+# Default task instructions for embedding model evaluations
+# These instructions are prepended to queries for instruction-tuned models
+
+sts:
+  instruction: "Retrieve semantically similar sentences."
+
+retrieval:
+  instruction: "Given a question, retrieve relevant passages that answer the question."
+
+ms_marco:
+  instruction: "Given a web search query, retrieve relevant passages that answer the query."

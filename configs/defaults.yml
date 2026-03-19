@@ -1,0 +1,19 @@
+# Internal algorithm constants and dataset identifiers
+# These values are NOT configurable per-run (see config.yml for runtime parameters)
+
+defaults:
+  tasks:
+    sts:
+      dataset: "Metric-AI/mteb_sts_hye"
+      scale_max: 5.0          # Maximum scale for STS similarity scores
+      epsilon: 0.00000001     # Numerical stability constant (1e-8)
+
+    retrieval:
+      dataset: "Metric-AI/retrieval_dataset_hye"
+      min_passages_threshold: 8  # Minimum passages per document for metrics
+
+    ms_marco:
+      dataset: "Metric-AI/ms_marco_hye"
+
+    mteb:
+      batch_size: 256         # MTEB uses larger batch size (differs from global)
