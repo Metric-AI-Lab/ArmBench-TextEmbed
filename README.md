@@ -197,10 +197,11 @@ If you use ArmBench-TextEmbed in your research, please cite:
   year={2026},
   url={https://github.com/Metric-AI-Lab/ArmBench-TextEmbed}
 }
-@inproceedings{navasardyan2026lessismore,
-  title = {Less is More: Adapting Text Embeddings for Low-Resource Languages with Small Scale Noisy Synthetic Data},
-  author = {Navasardyan, Zaruhi and Bughdaryan, Spartak and Minasyan, Bagratuni and Davtyan, Hrant},
-  booktitle = {Proceedings of the Workshop on Language Models for Low-Resource Languages (LoResLM) at EACL 2026},
-  year = {2026}
+@inproceedings{navasardyan2026less,
+  title={Less is More: Adapting Text Embeddings for Low-Resource Languages with Small Scale Noisy Synthetic Data},
+  author={Navasardyan, Zaruhi and Bughdaryan, Spartak and Minasyan, Bagratuni and Davtyan, Hrant},
+  booktitle={Proceedings of the Workshop on Low-Resource Language Models (LoResLM) at EACL 2026},
+  year={2026},
+  url={https://arxiv.org/abs/2603.22290}
 }
 ```
